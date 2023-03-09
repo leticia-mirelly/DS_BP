@@ -14,10 +14,19 @@
     "noEmit": true,
     "noImplicitAny": false,
     "allowJs": true,
-     "paths": {
+    "paths": {
       "@/*": ["./src"]
     }
   },
-  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue", "index.ts", "index.ts", "setup.ts", "setup.ts"],
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "index.ts",
+    "index.ts",
+    "setup.ts",
+    "setup.ts"
+  ],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
