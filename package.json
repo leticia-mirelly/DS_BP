@@ -12,7 +12,7 @@
     "test:coverage": "vitest --environment jsdom --coverage",
     "build": "vue-tsc && vite build",
     "preview": "vite preview",
-    "lint": "vue-cli-service lint"
+    "prepare": "husky install"
   },
   "lint-staged": {
     "*.js": [
