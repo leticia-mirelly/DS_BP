@@ -13,19 +13,18 @@
     "build": "vue-tsc && vite build",
     "preview": "vite preview",
     "prepare": "husky install",
-    "lint": "prettier --check .",
-    "format": "prettier --write ."
+    "lint": "prettier --check ."
   },
   "husky": {
     "hooks": {
       "applypatch-msg": "echo \"[Husky] applypatch-msg\"",
       "pre-applypatch": "echo \"[Husky] pre-applypatch\"",
-       "pre-commit": "lint-staged"
+      "pre-commit": "lint-staged"
     }
   },
   "lint-staged": {
-  "*": "prettier --write"
-},
+    "*": "prettier --write"
+  },
   "dependencies": {
     "vue": "^3.2.45"
   },
